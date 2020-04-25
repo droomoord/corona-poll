@@ -1,3 +1,4 @@
 {
-  "dbconfig": "mongodb+srv://droomoord:Nplespaul-7@cluster0-fglc5.mongodb.net/test?retryWrites=true&w=majority"
+  "dbconfig": "mongodb+srv://droomoord:Nplespaul-7@cluster0-fglc5.mongodb.net/test?retryWrites=true&w=majority",
+  "salt": "$2b$10$jJWCg5CjpiR2qGyfcLf8zu"
 }
