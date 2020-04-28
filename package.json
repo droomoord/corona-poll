@@ -6,7 +6,8 @@
   "scripts": {
     "server": "nodemon app.js",
     "client": "npm start --prefix client",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "start": "node app.js"
   },
   "author": "Kris Heijnen",
   "license": "ISC",
