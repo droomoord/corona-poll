@@ -104,10 +104,14 @@ app.get("/", (req, res) => {
   res.sendFile(path.resolve(__dirname, "build", "index.html"));
 });
 
+app.get("/stats", (req, res) => {
+  res.sendFile(path.resolve(__dirname, "build", "index.html"));
+});
+
 app.get("*", (req, res) => {
   res
     .status(404)
-    .send("Oh oh... The server is not so happy with your request...");
+    .send("Kris zegt: zorg er voor dat je url is: www.de-corona-poll.nl of www.de-corona-poll.nl/stats");
 });
 
 const PORT = process.env.PORT || 5000;
