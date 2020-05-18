@@ -1,0 +1,14 @@
+About the app:
+
+http://www.de-corona-poll.nl (it is in Dutch)
+
+A poll-app with corona-related questions, to collect data and show graphs based on that data.
+For this app I used Express to create routes and query the database, for the front-end I used React to create static files, that can be found in the 'build' folder. It is hosted on DigitalOcean, using NginX as proxy server and PM2 as Process Manager.
+
+How to run:
+
+Edit the dbconfig and salt variables in /config/default.json. The dbconfig should be a MongoDB URI containing your username and password. The salt is used to encrypt the emailadres of a participant, and can be anything you want it to be, as long others don't get to see it.
+After that, simply run 'node app.js' in the root folder.
+
+
+

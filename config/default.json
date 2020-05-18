@@ -1,4 +1,4 @@
 {
-  "dbconfig": "mongodb+srv://droomoord:Nplespaul-7@cluster0-fglc5.mongodb.net/production?retryWrites=true&w=majority",
-  "salt": "$2b$10$jJWCg5CjpiR2qGyfcLf8zu"
+  "dbconfig": "myMongoURI",
+  "salt": "mySalt"
 }
